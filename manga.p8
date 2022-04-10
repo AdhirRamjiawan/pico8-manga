@@ -82,7 +82,7 @@ function draw_scene1()
 
 	draw_right_main()	
 	
-	print("the tail of", 66, 15)
+	print("the tale of", 66, 15)
 	print("the pinchin", 66, 22)
 	spr(1, 66, 30)
 	spr(2, 74, 30)
@@ -142,6 +142,31 @@ function draw_scene2()
 	draw_border()
 	
 	draw_left_main()
+	
+ lby = 12
+	
+	print("there are", 12, 12, 0)
+	print("pinchin of", 12, 18, 0)
+	print("many kinds..", 12, 24, 0)
+	
+	print("we speak", 12, 50, 0)
+	print("many", 12, 56, 0)
+	print("tongues..", 12, 62, 0)
+	
+	print("fight with", 12, 92, 0)
+	print("styles owned", 12, 98, 0)
+	print("by each..", 12, 104, 0)
+	
+	print("b u t", 72, 20, 0)
+	exclam(100, 10, 0)
+	
+	orb(85, 70, 10, 8)
+	star(100, 65, 6)
+	
+	spr(3, 60 + 12, 28 + 65)
+ spr(3, 60 + 32, 28 + 70)
+	spr(3, 60 + 22, 28 + 80)
+	spr(3, 60 + 42, 28 + 66)
 end
 
 function draw_scene3()
@@ -149,6 +174,29 @@ function draw_scene3()
 	draw_border()
 	
 	draw_hor_split()
+	
+	print("to go forward", 60, 15, 0)
+	print("diversity is key", 50, 21, 0)
+	
+	print("in where we find strength", 12, 50, 0)
+	
+	exclam(20, 20, 6)
+	
+	orb(64, 90, 20, 8)
+
+	spr(3, 60 + 12, 28 + 65)
+ spr(3, 60 + 32, 28 + 70)
+	spr(3, 60 + 22, 28 + 80)
+	spr(3, 60 + 42, 28 + 66)
+
+	spr(1, 66 - 50, 50 + 30)
+	spr(2, 74 - 50, 50 + 30)
+	spr(17, 66 - 50, 50 + 38)
+	spr(18, 74 - 50, 50 + 38)
+	spr(33, 66 - 50, 50 + 46)
+	spr(34, 74 - 50, 50 + 46)
+
+
 end
 __gfx__
 00000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
